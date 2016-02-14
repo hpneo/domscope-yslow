@@ -1,0 +1,14 @@
+{
+  "name": "yslow_reporter",
+  "version": "1.0.0",
+  "description": "YSlow reporter for free",
+  "main": "index.js",
+  "author": "Gustavo Leon",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
