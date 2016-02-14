@@ -16,10 +16,12 @@ app.get('/', function(request, response) {
 
         result.push('--' + key + ' ' + value);
         return result;
-      }, []);
+      }, []).join(' '),
+      command = 'phantomjs ./yslow.js --dict ' + optionsAsArguments + ' ' + url;
 
+  console.log('Running: ', command);
 
-  exec('phantomjs ./yslow.js --dict ' + optionsAsArguments + ' ' + url, function(error, stdout, stderr) {
+  exec(command, function(error, stdout, stderr) {
     if (error === null) {
       response.json(JSON.parse(stdout));
     }
