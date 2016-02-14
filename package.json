@@ -1,7 +1,7 @@
 {
   "name": "yslow_reporter",
   "version": "1.0.0",
-  "description": "YSlow reporter for free",
+  "description": "YSlow Reporter (for DOMScope) is a REST API for YSlow running under PhantomJS",
   "main": "index.js",
   "author": "Gustavo Leon",
   "license": "MIT",

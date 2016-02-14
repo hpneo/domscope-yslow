@@ -1,6 +1,6 @@
-# YSlow for DOMScope
+# YSlow Reporter
 
-YSlow for [DOMScope](https://domscope.com/) is an interface for [YSlow](https://github.com/sitespeedio/yslow) running under PhantomJS.
+YSlow Reporter (for [DOMScope](https://domscope.com/)) is a REST API for [YSlow](https://github.com/sitespeedio/yslow) running under PhantomJS.
 
 ## Usage
 
